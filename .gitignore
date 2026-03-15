@@ -1,3 +1,8 @@
 *~
 *.swp
 *.swo
+## Uruchom agenta SSH (jeśli jeszcze nie jest uruchomiony)
+#eval "$(ssh-agent -s)"
+#
+## Dodaj klucz prywatny do agenta
+#ssh-add ~/.ssh/id_rsa
